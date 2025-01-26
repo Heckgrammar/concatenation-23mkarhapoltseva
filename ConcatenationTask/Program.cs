@@ -11,8 +11,7 @@
             LastName = Console.ReadLine();
             Console.Write("Enter age")
             Age = Console.ReadLine();
-            Allinfo = ( Firstname ++ LastName ++ Age );
-            Console.WriteLine(Allinfo);
+            Console.WriteLine($"Hello {Firstname}{Lastname} you are {Age} years old");
             
             // add two more variables for the users last name and their age
             // take these inputs into the program
