@@ -1,4 +1,4 @@
-﻿namespace ConcatenationTask
+﻿Masha Karhapoltseva ConcatenationTask
 {
     internal class Program
     {
@@ -7,6 +7,13 @@
             string FirstName;
             Console.Write("Enter first name: ");
             FirstName = Console.ReadLine();
+            Console.Write("Enter last name");
+            LastName = Console.ReadLine();
+            Console.Write("Enter age")
+            Age = Console.ReadLine();
+            Allinfo = ( Firstname ++ LastName ++ Age );
+            Console.WriteLine(Allinfo);
+            
             // add two more variables for the users last name and their age
             // take these inputs into the program
             // use the test data Bob, Smith, 14
